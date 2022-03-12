@@ -1,5 +1,8 @@
 package main
 
+import "fmt"
+
 func main() {
-	println("한글도 잘 나오나?")
+	names := []string{"nico", "lynn", "dal"}
+	fmt.Println(names)
 }
